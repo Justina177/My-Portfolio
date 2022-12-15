@@ -1,4 +1,5 @@
 import React from 'react';
+import './Profile.css'
 import Typical from 'react-typical';
 
 import {
@@ -23,33 +24,35 @@ export default function Profile () {
         <div className='profile-parent'>
             <div className='profile-details'>
                 <div className='colz'>
-                    <a href='#home'>
-                    <BsFacebook/>
-                    </a>
-                    <a href='#home'>
-                    <BsGithub/>
-                    </a>
-                    <a href='#home'>
-                    <BsInstagram/>
-                    </a>
-                    <a href='#home'>
-                    <BsLinkedin/>
-                    </a>
-                    <a href='#home'>
-                    <BsGoogle/>
-                    </a>
-                    <a href='https://twitter.com/JustinaEnenche'>
-                    <BsTwitter/>
-                    </a>
-                    <a href='#home'>
-                    <BsWhatsapp/>
-                    </a>
-                    <a href='../ContactMe'>
-                    <FaYahoo/>
-                    </a>
-                    <a href='#home'>
-                    <FaWhatsappSquare/>
-                    </a>          
+                    <div className='colz-icon'>                        
+                        <a href='#home'>
+                        <BsFacebook/>
+                        </a>
+                        <a href='#home'>
+                        <BsGithub/>
+                        </a>
+                        <a href='#home'>
+                        <BsInstagram/>
+                        </a>
+                        <a href='#home'>
+                        <BsLinkedin/>
+                        </a>
+                        <a href='#home'>
+                        <BsGoogle/>
+                        </a>
+                        <a href='https://twitter.com/JustinaEnenche'>
+                        <BsTwitter/>
+                        </a>
+                        <a href='#home'>
+                        <BsWhatsapp/>
+                        </a>
+                        <a href='../ContactMe'>
+                        <FaYahoo/>
+                        </a>
+                        <a href='#home'>
+                        <FaWhatsappSquare/>
+                        </a>          
+                    </div>
                 </div>
                 <div className="profile-details-name">
                     <span className="primary-text">
@@ -65,7 +68,7 @@ export default function Profile () {
                             loop={Infinity}
                             steps={[
                                 "Ethusiatic Dev 🔴 ",
-                                1000,
+                                3000,
                                 "Full Stack Developer 💻 ",
                                 1000,
                                "MERN Stack Dev 😎",
@@ -78,8 +81,23 @@ export default function Profile () {
                             />
 
                         </h1>
+                        <span className="profile-role-tagline">
+                            Knack of bulding applications with front and back end operations.
+                        </span>
                     </span>
                 </div>
+                <div className="profile-options">
+                    <button className="btn primary-btn">
+                        {" "}
+                        hire Me{" "}
+                    </button>
+                    <a href='Justina_Enenche_Resume.pdf' download='Justina_Enenche_Resume.pdf'>
+                        <button className="btn highlighted-btn">Get Resume</button>
+                    </a>
+                </div>
+            </div>
+            <div className="profile-picture">
+            <div className="profile-picture-background"></div>
             </div>
         </div>
     </div>

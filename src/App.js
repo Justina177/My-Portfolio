@@ -1,4 +1,5 @@
 import Profile from "./PortfolioContainers/Home/profile";
+import './App.css'
 
 
 function App() {
