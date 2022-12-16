@@ -68,7 +68,7 @@ export default function Profile () {
                             loop={Infinity}
                             steps={[
                                 "Ethusiatic Dev 🔴 ",
-                                3000,
+                                1000,
                                 "Full Stack Developer 💻 ",
                                 1000,
                                "MERN Stack Dev 😎",
